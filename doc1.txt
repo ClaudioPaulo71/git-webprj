@@ -29,4 +29,9 @@ git rm --cached file.xxx
 git checkout identificador do commit
 git checkout identificador do commit -- file.xxx
 
+//puxa modificações do repositorio remoto para o repositorio local
+git pull
+
+//envia modificações locais para o repositorio remoto
+git push
 
