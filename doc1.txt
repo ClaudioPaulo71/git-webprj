@@ -1,0 +1,32 @@
+Comandos Git
+
+
+// inicia o git (repositório) no seu projeto
+git init
+
+//verifica as alterações de pastas e arquivos no projeto
+git status
+
+//adiciona todos os arquivos e pastas modificados ao stage area
+git add .
+
+//adiciona um arquivo especifico ao stage area
+git add file.xxx
+
+//comentário que descreve o commit
+git commit -m "message"
+
+//histórico de commits do projeto
+git log
+
+//recupera um arquivo de um commit
+git restore file.xxx
+
+//deleta um arquivo especifico do stage area
+git rm --cached file.xxx
+
+//aponta o head para um commit especifico ou recupera um arquivo de um commit especifico
+git checkout identificador do commit
+git checkout identificador do commit -- file.xxx
+
+
